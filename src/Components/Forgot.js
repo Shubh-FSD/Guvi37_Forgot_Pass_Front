@@ -33,8 +33,8 @@ function Forgot() {
   <div className="wallpaper1">
     <div className="login-wrapper">
       <h1>Welcome to Forgot Password Page </h1>
-    </div>
-    <div className='login-main-wrapper'>
+    
+    
       <Form>
         <Form.Group className="mb-3">
           <Form.Label>Email address</Form.Label>
@@ -46,9 +46,10 @@ function Forgot() {
         <Button className ="mx-2" variant="primary" onClick={()=>handleLogin()}>
           Back To Login Page
         </Button>
-      </Form>      
+      </Form>   
+      </div>   
     </div>  
-    </div>
+    
   </>
 }
 

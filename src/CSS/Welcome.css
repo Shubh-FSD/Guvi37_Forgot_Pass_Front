@@ -1,12 +1,12 @@
-.Entry-Caption {
-   
-  color: green;
-  font-weight: 600;
-  margin-top: 5rem;
+.Entry-Caption{
+  margin-top:10rem;
+  overflow-y: hidden;
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right:0.5rem
 }
-.Adjust_text{
-    margin-left: 4rem;
-}
+
+h2{overflow-y: hidden;}
 
 .Capture4 {
   width: 70rem;
